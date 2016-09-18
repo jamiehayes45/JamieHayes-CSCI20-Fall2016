@@ -11,7 +11,7 @@ int main () {
     cout << "  |  |   * * *  |  |  " << endl;
     cout << "  |__|    R2D2  |__|  " << endl;
     cout << "   | |    (^)   | |   " << endl;
-    cout << "   | |__________| |   " << endl;
+    cout << "   | |_____:____| |   " << endl;
     cout << "  |~  `________/  ~|  " << endl;
     cout << "  / = |  / = |  / = | " << endl;
     cout << " (____] (____] (____] " << endl;
