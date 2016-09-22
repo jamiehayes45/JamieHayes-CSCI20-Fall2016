@@ -16,7 +16,7 @@ int main () {
     cout << endl;
     
     cout << " Number of hours worked in one week: "; 
-    cout << numHour << endl;
+    cout << numHour << endl; 
     
     cout << " Rate: ";
     cout << weekRate << endl;
