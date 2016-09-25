@@ -10,55 +10,52 @@ using namespace std;
     Because of the repeating chorus line via, overcome. Tt's helpful when coding the chorus parameter. 
 */
 
-// song title print setup parameter
+// song title print setup one parameter
 void printTitle (string title) {
     cout << "lyrics from: ";
     cout << title << endl;
-    
     return;
 }
-
-// chorus function, output the chorus with one parameter
-void chorus (string overcome) {
+    
+ // chorus function, output the chorus with one parameter
+void chorusOverC(string overcome) {
     cout << "I'm scared to be" << endl;
-    cout << "Someone lost and free" << overcome << endl;
+    cout << "Someone lost and free";
+    cout << overcome << endl;
     cout << "Washing in and out of space" << endl;
-    cout << "Every drift I loose my grace" << overcome << endl;
+    cout << "Every drift I loose my grace";
+    cout << overcome << endl;
     cout << "But I need to know " << endl;
-    cout << "That I can be alone and grow" << overcome << endl;
+    cout << "That I can be alone and grow";
+    cout << overcome << endl;
     
     return;
 }
 
-//verse1 function to output. The first verse includes two parameters
-void verse1 (string word1 , string word2) {
-    cout << " " << word1 << " " << word2 << endl;
-    cout << word2 << " " << word2 << endl; 
+// verseone function void, output the verse with two parameters
+void verse1 (string to , string on) {
+    cout << "Longing ";
+    cout << to;
+    cout << " overcome" << endl;
+    cout << "By holding "; 
+    cout << on  << endl;
     
     return;
 }
  
  // main function for title print
  int main () {
+// call to print the name of song title 
     printTitle ("Overcome by Tora feat. potato potato"); // tile of song name
-    
-    return 0;
-
+    cout << endl; 
 
 // CALL for chorus and string overcome
-    int chorus;
-    string overcome;
-    
-    overcome = "overcome";
-    chorus (string overcome);
-    cout << overcome;
-    
-    return 0;
-    
-// call the verse i to print
-    verse1(string word1 , string word2);
+    chorusOverC(" ,overcome");// print selected song lyrics for project from above void funtion chorus parameter
     cout << endl;
     
-
- }
-     
+// call to print verseone with two parameters
+    verse1 ("to", "on"); //pritn two fill words for void verse as shown above 
+    cout << endl;
+    
+    return 0;
+}
