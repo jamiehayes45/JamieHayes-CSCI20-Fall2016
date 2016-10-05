@@ -1,5 +1,5 @@
 // created by Jamie Hayes
-// created on 10/3/16 3.2 Boolean and Logical Operators
+// created on 10/3/16 3.2 Boolean and Logical Operators. lab 10
 #include <iostream>
 using namespace std;
 
