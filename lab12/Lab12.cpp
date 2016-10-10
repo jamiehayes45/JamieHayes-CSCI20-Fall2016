@@ -26,7 +26,7 @@ int main () {
         cin >> cheeseInput;
         cout << endl;
     }
-        else if(pizzaInput == 'n') ;{
+        else if(pizzaInput == 'n') {
             cout << "Do you like fruit?" << endl;
             cin >> fruitInput;
             cout << endl;
@@ -39,10 +39,10 @@ int main () {
                 cout << endl << "You are unhealthy" << endl;
                 break;
         }
-    };
+    }
     if (cheeseInput == 'y') {
         cout << "You are a cheese lover" << endl;
-    
+    }
     else if (cheeseInput == 'n') {
         cout << "Do you like veggie?" << endl;
         cin >> veggieInput;
@@ -50,7 +50,7 @@ int main () {
         if (veggieInput =='y') {
             cout << "You are a vegetarian" << endl;
         }
-        else if(veggieInput =='n') ;{
+        else if(veggieInput =='n') {
             cout << "You have a weird diet" << endl;
         }
     }
