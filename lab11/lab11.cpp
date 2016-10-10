@@ -1,4 +1,4 @@
-// Created by Jamie Hayes on 10/5/16
+// Created by Jamie Hayes on 10/5/16 Due wednesday by 11:59pm
 // lab 11 from 3.2 Lab - If/Else module 
 #include <iostream>
 #include <string>
@@ -7,7 +7,7 @@ using namespace std;
 // This program calculates the income tax, and the amount owed or to be refunded to a person or couple
 int main ()
 {
-    int wage = 12100;                  // gross wages
+    int wage = 12100;                  // gross wage of program user
     int tax = 0;                       // tax amount for adjusted gross income
     int withheild = 250;               // amount of tax withheild
     string MarriageStatus = "single";  // filing status single or married
@@ -47,7 +47,7 @@ if((MarriageStatus == "single" )) {
 };
 
 // tax table for married couples adjusted gross income
-if else(MarriageStatus == "married") ;{
+if else((MarriageStatus == "married")) ;{
     if(wage>0 && wage>=17850) {
         tax = 0.1 * wage;
         cout << tax << endl;
