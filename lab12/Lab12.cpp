@@ -2,56 +2,56 @@
 // Created on 10/9/16
 // lab 12 Nested If and Switch Case
 #include <iostream> 
-#include <string>
 using namespace std;
 
-/* Lab 12 uses the flowchart "what is your animal type" provided in class.
-The program tells the type of animal you are based on your preferences to the 
+/* Lab 12 uses the idea of a flowchart 
+The program tells the type of food you like 
 yes or no questions below.
 */
 int main () {
-    char outdoorsInput = 'y';
-    char runInput = 'y';
+    char pizzaInput;
     char cheeseInput;
-    char swimInput;
+    char fruitInput;
+    char veggieInput;
     
     cout << "Enter y or n ONLY for the following questions" << endl;
     // y = yes, n = no and to avoid logic error such as Y or NO
     
-    cout << "Do you like the outdoors?" << endl;
-    cin >> outdoorsInput;
+    cout << "Do you like pizza?" << endl;
+    cin >> pizzaInput;
     cout << endl;
     
-    if(outdoorsInput == 'y') {
-        cout << "Do you like to run?" << endl;
-        cin >> runInput;
+    if(pizzaInput == 'y') {
+        cout << "Do you like cheese?" << endl;
+        cin >> cheeseInput;
         cout << endl;
     }
-        else(outdoorsInput == 'n') ;{
-            cout << "Do you like cheese?" << endl;
-            cin >> cheeseInput;
+        else if(pizzaInput == 'n') ;{
+            cout << "Do you like fruit?" << endl;
+            cin >> fruitInput;
             cout << endl;
-        }
-        switch(runInput) {
+        
+        switch(fruitInput) {
            case'y':
-            cout << endl << "You are a horse" << endl;
-            break;
+                cout << endl << "You are healthy" << endl;
+                break;
             case'n':
-            cout << endl << "You are a turtle" << endl;
-    }
+                cout << endl << "You are unhealthy" << endl;
+                break;
+        }
+    };
     if (cheeseInput == 'y') {
-        cout << "You are a mouse" << endl;
-    }
-    else if (cheeseInput == 'n') {
-        cout << "Do you like to swim?" << endl;
-        cin >> swimInput;
-        cout << endl;
-    }
-        if (swimInput =='y') {
-            cout << "You are a fish" << endl;
-        }
-        else (swimInput =='n') ;{
-            cout << "You are a cat" << endl;
-        }
+        cout << "You are a cheese lover" << endl;
     
+    else if (cheeseInput == 'n') {
+        cout << "Do you like veggie?" << endl;
+        cin >> veggieInput;
+        cout << endl;
+        if (veggieInput =='y') {
+            cout << "You are a vegetarian" << endl;
+        }
+        else if(veggieInput =='n') ;{
+            cout << "You have a weird diet" << endl;
+        }
+    }
 }

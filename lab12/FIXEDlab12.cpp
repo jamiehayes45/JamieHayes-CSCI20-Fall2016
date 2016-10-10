@@ -11,13 +11,13 @@ using namespace std;
 */
 
 int main () {
-    char outdoorsUser = 'y';
-    char runUser = 'y';
-    char cheeseUser = 0;
-    char swimUser = 0;
+    char outdoorsUser;
+    char runUser;
+    char cheeseUser;
+    char swimUser;
     
     // y = yes, n = no
-    cout << " Answer the following question with y or n ONLY." << endl; // to avoid logic error like Y or NO
+    cout << "Answer the following question with y or n ONLY." << endl; // to avoid logic error like Y or NO
 
     cout << "Do you like the outdoors? " << endl;
     cin >> outdoorsUser;
@@ -30,10 +30,12 @@ int main () {
         case 'y' :
             cout << "Do you like to run ?" << endl;
             cin >> runUser;
+            cout << endl;
             break;
         case 'n' :
             cout << " Do you like cheese?" << endl;
             cin >> cheeseUser;
+            cout << endl;
             break;
     }
     // Continues input for runuser and cheeseuser
@@ -53,15 +55,13 @@ int main () {
     else if (cheeseUser == 'n') {
         cout << "Do you like to swim? " << endl;
         cin >> swimUser;
-        
+        cout << endl;
+    
         if (swimUser == 'y') {
             cout << "You are a fish" << endl;
         }
-        else (swimUser == 'n'); {
+        else if (swimUser == 'n'); {
             cout << "You are a cat" << endl;
         }
     }
-    }
-    
-    return 0;
 }
