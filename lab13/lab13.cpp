@@ -46,28 +46,44 @@ while (valueHour <=2 && valueMin < 60) {
     // variable names of start and stop times 
     int startHour =0;
     int endHour =0; // Ending hour variable either 1 or 2
-    int startMin =0;
-    int endMin =0; // ending minute(s) varibale between 0-59
-
+    int minutes = 0;
     // input and ouput for starting time of users choice 
-    cout << "Enter starting value between 9:00am to 11:00am Only" << endl; // avoid logic error
+    cout << "Enter starting value between any two time variable" << endl; // avoid logic error
     cin >> startHour;
-    cin >> startMin;
-    cout << startHour << ":" << startMin << "am";
+    cout << endl;
+    
+    // ending time of users choice -input 
+    cout << "Enter ending hour value, between any two time varibales" << endl; // avoid logic error
+    cin >> endHour;
     cout << endl;
     
     // print 15 minute interval between user's choice of starting time
-    while (startHour <= endHour) {
-        startHour = startHour + 15;
-        cout << startHour << "pm" << endl;
+    char ap;
+    cout<<"If you choose an afternoon time input lower case p, or lower-case a' to indicate morning time" << endl;
+    cin>>ap;
+    if(ap == 'p') {
+    while (startHour < endHour) {
+        if(minutes>=60) {
+            minutes = 0;
+            startHour = startHour + 1;
+        }
+        if(startHour < endHour) {
+        minutes = minutes + 15;
+        cout << startHour<< minutes << "pm" << endl; // print statement 
+        } 
     }
-    
-    // ending time of users choice -input 
-    cout << "Enter ending hour value, between 9:00am to 11:00am Only" << endl; // avoid logic error
-    cin >> endHour;
-    cin >> endMin;
-    cout << endHour << ":" << endMin << "am"; 
-    cout << endl;
-    
+    }
+    else if(ap== 'a') {
+         while (startHour < endHour) {
+        if(minutes>=60) {
+            minutes = 0;
+            startHour = startHour + 1;
+        }
+        if(startHour < endHour) {
+        minutes = minutes + 15;
+        cout << startHour<< minutes << "am" << endl; // print statement
+        } 
+    }
+}
 }
     
