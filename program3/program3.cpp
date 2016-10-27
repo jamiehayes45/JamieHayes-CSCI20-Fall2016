@@ -1,9 +1,11 @@
 //Created by Jamie Hayes
 // Created on 10/24/16
+// Title: Program 3 Game: 
 #include <iostream>
 #include <string>
+#include <cstdlib>
 #include <ctime>
-using namescpace std;
+using namespace std;
 
 /* This program is based on the game rock, paper, sisscocrs. The computer
 * chooses from three options and user only chooses one. The game will play
@@ -41,7 +43,10 @@ void if (userChoice == 1) {
         cout << "Computer chooses rock, while the user chose sisscocrs." << endl;
         cout << "User loses, Computer wins this round." << endl;
     }
-    else (comChoice ==2) {
-        if ()
+    if (compChoice ==2) {
+        if (compChoice ==1) {
+            Score = Score + 1;
+           cout << "computer chose rock, while user chose " 
+        }
     }
 }
