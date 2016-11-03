@@ -1,5 +1,7 @@
 // Created by author Jamie Hayes 
 // Created on Date: 09/20/2016
+// Title: lab 7 parameters
+// Class: CSCI-20 Fall M-W 9:00am-11:15am
 #include <iostream>
 #include <string>
 using namespace std;

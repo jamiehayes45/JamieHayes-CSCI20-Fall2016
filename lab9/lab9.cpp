@@ -1,8 +1,14 @@
 // Created by Jamie Hayes
-// Created on 9/27/16 : functions and classes
+// Created on 9/27/16 
+// Title: lab 9 functions and classes
+// Class: april browne CSCI-20-Fall M-W 9:00-11:15am 
 #include <iostream>
 #include <cmath> 
 using namespace std;
+
+/* Description of program:
+*/
+
 
 class TempratureConverter {             // class name
     public:                             // class type can be changed and accessed by user
