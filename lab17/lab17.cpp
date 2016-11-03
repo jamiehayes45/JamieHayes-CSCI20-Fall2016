@@ -65,9 +65,9 @@ int main () {
     
     cout << "List of three user name options: " << endl;
     // prints user names
-    cout << userName1 << endl;
-    cout << userName2 << endl;
-    cout << userName3 << endl;
+    cout << userName1 << endl; // example: apbrowne  
+    cout << userName2 << endl; // example: aprilbrowne
+    cout << userName3 << endl; // example: abrowne
     
 return 0;
 }
