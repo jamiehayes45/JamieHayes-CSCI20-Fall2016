@@ -1,7 +1,12 @@
-// created by Jamie Hayes
-// created on 10/3/16 3.2 Boolean and Logical Operators. lab 10
+// Created by Jamie Hayes
+// Created on 10/3/16 
+// Title: 3.2 Boolean and Logical Operators. lab 10
+// Class: april browne CSCI-20-Fall M-W 9:00am-11:15am 
 #include <iostream>
 using namespace std;
+
+/* Description: 
+*/ 
 
  int main () {
     // equation 1

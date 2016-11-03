@@ -1,6 +1,8 @@
-// Created ny Jamie Hayes
-//Created on 11/2/16
-// Title lab 17 4.3: C Strings
+// Created by Jamie Hayes
+// Created on 11/2/16
+// Title: lab 17 - 4.3: C Strings
+// Class: april browne : CSCI-20-Fall-2016
+// Periiod Time: M-W 9:00am-11:15am 
 #include <iostream>
 #include <cstring>
 using namespace std;
