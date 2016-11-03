@@ -1,4 +1,5 @@
-// created by Jamie Hayes resubmition of ascii
+// Created by Jamie Hayes 
+// Re-submition of ascii art
 #include <iostream>
 using namespace std;
 
