@@ -11,9 +11,9 @@ using namespace std;
 */
 
 int main () { 
-    // firts part of the program
+    // firts part of the program below
     int valueHour = 1; // beging of time sequence from 1 - 2:59pm
-    int valueMin =0; // minute variable
+    int valueMin = 0; // minute variable
 
 cout << "List of every minute between 1:00pm to 2:59pm :" << endl; 
 
@@ -30,7 +30,7 @@ while(valueHour <=2 && valueMin < 60) { // equation for setting up parameter
     ++valueMin; //operation allows
 }
 // output of every minute between 2:00 - 2:59pm using a while statement
-while (valueHour <=2 && valueMin < 60) {
+while (valueHour <= 2 && valueMin < 60) {
     if (valueMin < 10) { 
         cout << "2:0" << valueMin << "pm"; // anything greater than ten while include a zero
         cout << endl;
@@ -44,8 +44,8 @@ while (valueHour <=2 && valueMin < 60) {
 
     // second part of the program - user chooses time variable and program will output fifteen minute variables
     // variable names of start and stop times 
-    int startHour =0;
-    int endHour =0; // Ending hour variable either 1 or 2
+    int startHour = 0;
+    int endHour = 0; // Ending hour variable either 1 or 2
     int minutes = 0;
     // input and ouput for starting time of users choice 
     cout << "Enter starting value between any two time variable" << endl; // avoid logic error
@@ -77,7 +77,7 @@ while (valueHour <=2 && valueMin < 60) {
          while (startHour < endHour) {
         if(minutes>=60) {
             minutes = 0;
-            startHour = startHour + 1;
+            startHour = startHour + 1; 
         }
         if(startHour < endHour) {
         minutes = minutes + 15;

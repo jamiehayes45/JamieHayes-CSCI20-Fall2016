@@ -31,18 +31,18 @@ int main () {
     menuOption[9] = "katsu curry";
     
     cout << "Welcome to Izakaya Ichiban! in Chico!" << endl;
+    cout << "Please place your order here!!!:" << endl;
     
-    cout << "Here is a list of your ten menu options:" << endl;
+    cout << "Here is the list of your ten menu options:" << endl;
     // list menu in order
     for (int j =0; j < 10; j++) {
         cout << j << "-" << menuOption[j] << endl;
     }
-    cout << "Please place your order here!!!:" << endl;
     
     // equation for customer order slections
     for (i = 0; i <= 10; i++) {
         optionsSelected = 0;
-        cout << "Enter the number of the item you want off the menu o-9" << endl;
+        cout << "Enter the number of an item you want off the menu o-9" << endl;
         cin >> optionsSelected;
         } 
             
